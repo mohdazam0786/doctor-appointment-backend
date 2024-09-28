@@ -1,0 +1,101 @@
+/* Style for form container to center the form */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style for form wrapper to control the width of the form */
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Style for the form card */
+.form-card {
+  padding: 24px;
+  background-color: #dcfce7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for register link */
+.register-link {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  color: #1890ff;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* General input styles */
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-input, .ant-input-password {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.login-form .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.login-form .ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.register-card {
+  background: #dcfce7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.register-form {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  background-color: #14532d;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #40a9ff;
+}
+
+.register-card a {
+  color: #1890ff;
+  transition: color 0.3s ease;
+}
+
+.register-card a:hover {
+  color: #40a9ff;
+}

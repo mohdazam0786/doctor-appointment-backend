@@ -1,0 +1,156 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #064e3b;
+  color: #f0fdf4;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; /* Makes it span the full width of the viewport */
+  z-index: 1000; /* Ensures the navbar is on top of other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a 3D effect */
+  margin-bottom: 2px;
+}
+
+.logo img {
+  height: 30px; /* Adjust as per your logo size */
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  font-weight: bold;
+  color: #bbf7d0;
+  text-decoration: underline; /* Active link color */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-content .fa-bell {
+  font-size: 1.2rem;
+}
+
+.body {
+  padding: 20px;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+}
+
+.search-doctor-container {
+  padding: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.doctor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.doctor-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.doctor-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.doctor-card p {
+  margin: 0;
+  color: #555;
+}
+
+.footer {
+  background-color: #dcfce7; /* Light background color */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: small;
+  font-family: cursive;
+}
+
+.footer-content a {
+  margin: 5px;
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  font-size: small;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.notification-icon {
+  color: #dcfce7; /* Change this to your desired color */
+  font-size: 20px; /* Adjust the size if necessary */
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full height */
+}
+
+.content {
+  flex: 1; /* Takes up remaining space */
+}
+
+.footer {
+  background-color: #f1f1f1; /* Change as needed */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.formy {
+  height: 400px;
+  overflow: auto;
+  scrollbar-width: none;
+}
