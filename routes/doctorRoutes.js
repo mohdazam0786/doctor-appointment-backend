@@ -16,7 +16,7 @@ router.get("/getDoctorInfo", authMiddleware, getDoctorInfoController);
 router.post("/updateProfile", authMiddleware, updateProfileController);
 
 //POST  GET SINGLE DOC INFO
-router.post("/getDoctorById", authMiddleware, getDoctorByIdController);
+router.get("/getDoctorById", authMiddleware, getDoctorByIdController);
 
 //GET Appointments
 router.get(
